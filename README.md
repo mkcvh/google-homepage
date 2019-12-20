@@ -1,1 +1,2 @@
-As part of the Odin Project's Curriculum - I attempt to recreate the Google homepage (without any of it's functionality - yet!)
+Replica of Google Home Page
+From the Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
