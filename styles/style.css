@@ -1,0 +1,169 @@
+body {
+    font-size: 13px;
+    font-family: arial;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.headerleft {
+    padding-top: 15px;
+    position: absolute;
+    left: 10px;
+}
+
+.headerleft a {
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.headerright {
+    padding-top: 8px;
+    float: right;
+    margin-right: 22px;
+}
+
+.headerright a {
+    padding-left: 15px;
+    position: relative;
+}
+.appsicon {
+    width: 15px;
+    opacity: 0.8;
+    padding-top: 5;
+    display: inline-flex;
+}
+.signin {
+    opacity: 1;
+}
+.headerright button {
+    border-color: #4285f4;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    background-color: #4285f4;
+    font-weight: bold;
+    outline: none;
+    width: 69.344px;
+    height: 30px;
+    font-size: small;
+    border-radius: 3px;
+}
+
+
+main {
+     text-align: center;
+     display: inline-block;
+     width: 100%;
+}
+.googlelogo {
+    padding-top: 152px;
+    height: 92px;
+    width: 272px;
+}
+
+.search-box {
+    border-color: rgb(234, 234, 235);
+    height: 44px;
+    width: 580px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 22px;
+    display: inline-block;
+    margin-top: 24px;
+    cursor: text;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);;
+    border-color: white;
+}
+.searchicon {
+    height: 15px;
+    padding-top: 13px;
+    position: relative;
+    display: block;
+    left: 16px;
+    opacity: 0.76;
+}
+
+
+.search-field {
+    height: 34px;
+    width: 500px;
+    position: relative;
+    display: flex;
+    border-style: none;
+    font: 400 16px Arial;
+    bottom: 25px;
+    left: 45px;
+}
+
+.voicesearch {
+    height: 20px;
+    opacity: 0.9;
+    position: relative;
+    display: block;
+    bottom: 53px;
+    left: 545px;
+}
+
+.buttons {
+    margin-top: 22px;
+}
+
+.button {
+    background-color: #f2f2f2;
+    width: 135.406px;
+    height: 34px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #5F6368;
+    cursor: pointer;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.button:hover {
+    -webkit-appearance: push-button;
+    border-color: buttonface;
+    background-color: buttonface;
+    color: buttontext;
+}
+
+.footer {
+    position: absolute;
+    background-color: #f2f2f2;
+    width: 100%;
+    bottom: 0;
+    left: 0px;
+}
+
+.footerleft {
+    margin-left: -30px;
+}
+
+.footerright {
+    right: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer li{
+    padding-left: 27px;
+}
